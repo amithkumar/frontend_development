@@ -4,6 +4,15 @@
 Generated using following:-
 npx create-react-app my-flexi-counter --template redux
 
+## Existing Features
+1) Increment/decrement by 1
+2) Increament by specific amount
+3) Async increment by specific amount
+
+## New Features
+1) Decrement by Specific amount
+2) Async decrement by specific amount
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
