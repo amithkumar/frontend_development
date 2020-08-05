@@ -1,15 +1,20 @@
 .container {
     display: flex;
-    width:400px;
+    width: 100%;
     border: 1px red solid;
     flex-direction: row;
 }
 .list {
-    width: 50%
+    width: 100%;
+}
+.addGoalsContainer {
+    background: yellow;
+    border: 1px red solid;
+    width: 100%
 }
 .addGoals {
-    background: yellow;
+    margin: 100px;
     color: red;
     font-weight: bold;
-    width: 50%;
+    border: 1px green solid
 }

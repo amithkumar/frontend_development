@@ -16,7 +16,7 @@ function Goals(props) {
 
     console.log(goals)
     return (
-        <div className={styles.container}>
+        <div className='container'>
             <div className='list'>
                 <h1>{props.heading}</h1>
                 <ul>
@@ -26,14 +26,20 @@ function Goals(props) {
                         )}
                 </ul>
             </div>
-            <div className='addGoals'>
-                <input value={newGoal} onChange={(e) => { setNewGoal(e.target.value) }} />
-                <button onClick={() => {
-                    if (newGoal) {
-                        dispatch(addGoal(newGoal));
-                        setNewGoal('')
-                    }
-                }} />
+            <div className='addGoalsContainer'>
+
+
+                <div className='addGoals'>
+                    <input value={newGoal} onChange={(e) => { setNewGoal(e.target.value) }} />
+                    <button onClick={() => {
+                        if (newGoal) {
+                            dispatch(addGoal(newGoal));
+                            setNewGoal('')
+                        }
+                    }}>
+                        Add
+                </button>
+                </div>
             </div>
         </div>
     )
